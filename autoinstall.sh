@@ -46,7 +46,7 @@ wget -O- https://repo.3cx.com/key.pub | gpg --dearmor | sudo tee /usr/share/keyr
 
 echo -e "${CYAN}--> Añadiendo el repositorio de 3CX...${NC}"
 sleep 1
-sleep 1 && echo "deb [arch=amd64 by-hash=yes signed-by=/usr/share/keyrings/3cx-archive-keyring.gpg] http://repo.3cx.com/3cx bookworm main" | tee /etc/apt/sources.list.d/3cxpbx.list
+sleep 1 && echo "deb [arch=amd64 by-hash=yes signed-by=/usr/share/keyrings/3cx-archive-keyring.gpg] http://repo.3cx.com/3cx bookworm-testing main" | tee /etc/apt/sources.list.d/3cxpbx.list > /dev/null
 
 echo -e "${CYAN}--> Actualizando los repositorios...${NC}"
 sleep 2
