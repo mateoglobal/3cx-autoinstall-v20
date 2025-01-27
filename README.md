@@ -1,2 +1,5 @@
-# 3cx-autoinstall-v20
-Autoinstall script for 3cx v20 in Debian 12
+Script para hacer una instalación y configuración automática sobre Debian 10 para 3cx.
+
+```
+wget -qO- https://raw.githubusercontent.com/mateoglobal/script/main/autoinstall.sh | bash
+```
