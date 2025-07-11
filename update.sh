@@ -128,7 +128,7 @@ function check_system_up_to_date {
 function check_specs {
 	# Check cpu
 	AVAILABLE_CPU=`nproc`
-	if [ $AVAILABLE_CPU -lt 2 ]; then
+	if [ $AVAILABLE_CPU -lt 1 ]; then
 		log "Preparation" "Not enough CPU cores. At least 2 CPU cores are required for a smooth upgrade."
 		PREFLIGHT_CHECK=1
 		upgrade_result "aborted" "Insufficient CPU cores" "There are not enough CPU cores. Please make sure there are at least 2 CPU cores before upgrading."
