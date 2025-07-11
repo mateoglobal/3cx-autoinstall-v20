@@ -3,3 +3,9 @@ Script para hacer una instalación y configuración automática sobre Debian 12 
 ```
 wget -qO- https://raw.githubusercontent.com/mateoglobal/3cx-autoinstall-v20/refs/heads/main/autoinstall.sh | bash
 ```
+
+Actualizar v18 a v20.
+
+```
+wget -qO- https://raw.githubusercontent.com/mateoglobal/3cx-autoinstall-v20/refs/heads/main/update.sh | bash
+```
